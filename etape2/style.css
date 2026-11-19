@@ -1,0 +1,33 @@
+body {
+    font-family: Calibri, Arial, sans-serif;
+    background: #fff;
+}
+
+#table_container {
+    width: 80%;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+}
+
+th {
+    background: #0079bf;
+    color: #fff;
+    padding: 10px;
+}
+
+td {
+    padding: 8px 6px;
+    border-bottom: 1px solid #ddd;
+}
+
+.col_number { text-align: center; width: 60px; }
+.col_text   { text-align: left; }
+.col_chkbox { text-align: center; width: 70px; }
