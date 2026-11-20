@@ -121,6 +121,7 @@ function toggleSelectAll() {
         box.checked = !toutesCochees;
     }
 }
+}
 function sortByPoints() {
    
     persons.sort(function (a, b) {
