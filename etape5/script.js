@@ -14,7 +14,7 @@ function doInsertRowTable(num, nom, prenom, points) {
     row.setAttribute("class", "row");
     const col1 = document.createElement("td");
     const col2 = document.createElement("td");
-    const col3 = docuupérer les champs avec getElementById (voir slide XX)ment.createElement("td");
+    const col3 = document.createElement("td");
     const col4 = document.createElement("td");
     const col5 = document.createElement("td");
     col1.innerText = num;
@@ -59,7 +59,6 @@ function doNewData() {
     const nom = elt_nom.value;
     const prenom = elt_prenom.value;
     const points = parseInt(elt_points.value); 
-eurs (voir slide 42)
     if (nom === "" || prenom === "" || Number.isNaN(points)) {
         alert("Formulaire incomplet !"); 
     } else {
